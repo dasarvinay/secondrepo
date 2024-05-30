@@ -1,0 +1,51 @@
+
+/* width sets the actual width of an element while min-width and max-width sets the maximum and minimum width iot can be attain */
+
+
+    /* background-color: rgb(169, 169, 178);
+    /* width: 800px; */
+    /* min-width: 100px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 300px;
+    overflow: scroll;
+    font-size: 30px; */ 
+
+
+
+
+/* css units determines the size and position of the element on the webpage */
+
+/* we have multiple units such pixel(px), percentage(%), viewpoint width(w), viewpoint hight(h), en and rem that are commoly used  */
+
+/* apart from these we aslo have absolute lengths such as inch, cm, mm, pt and many mpore which are not generaly becauise of the issuse it face with different browsers and screen size */
+
+/* 1.pixel- a single dot on the screen. Good for fixed sized elements likes boreder-width */
+
+/* 2.percentage- relative to the size of parent element and it is useful for creating responsive layouts. */
+
+#outerdiv{
+    /* width: 70%; */
+    background-color: aqua;
+    height: 100vh;
+
+}
+
+
+#innerdiv{
+    width: 100%;
+    max-width: 100vw;
+    background-color: rgb(112, 21, 21);
+    /* font-size: 2vw; */
+    /* font-size: 2em; */
+    font-size: 2rem;
+    color: aliceblue;
+
+}
+
+/* viewport width and viewport heigth */
+
+/* vw:-relative to the width of the viewport */
+/* vh:-relative to the higth of the viewport */
+
+/* em is relative  */
