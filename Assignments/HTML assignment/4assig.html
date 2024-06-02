@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <fieldset>
+        <form>
+            <label for="name">Name</label>
+            <input type="Text" name="name" id="name" required placeholder="Name"><br><br>
+
+            <label for="email">Email</label>
+            <input type="email"  name="email" id="email" required placeholder="Email"><br><br>
+
+            <label for="gender">Gender</label>
+            <input type="radio"  id="gender" name="male" value="male">
+            <label for="gender">male</label>
+            <input type="radio"  id="gender" name="male" value="female">
+            <label for="gender">feamle</label><br><br>
+
+             <label for="cars">Car Brands</label>
+             <select name="car" id="cars" required>
+                <option value=""disabled selected>--Please choose an option--</option>
+                <option value="Audi">Audio</option>
+                <option value="Ferrari">ferrari</option>
+                <option value="Bugatti">bugatti</option>
+                <option value="Lamborghini">lamborghini</option>
+                <option value="Porsche">porsche</option>
+                <option value="Volkswagen">volkswagen</option>
+            </select><br><br>
+
+            <label for="age">Age</label>
+            <input type="Number" name="age" id="age" required placeholder="Age"><br><br>
+
+            <label for="dob">DOB</label>
+            <input type="date" name="dob" id="dob" required min="1990-01-01" max="2030-01-01"><br><br>
+
+            <label for="tel">Phone Number</label>
+            <input type="Tel" name="tel" id="tel" placeholder="xxx-xxx-xxxx" maxlength="10"><br><br>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required placeholder="password"><br><br>
+
+            <label for="tc">I agree to the T&C</label>
+            <input type="checkbox" name="tc" id="tc" required><br><br>
+
+            <input type="submit" value="signup">
+            
+        </form>
+    </fieldset>
+</body>
+</html>
