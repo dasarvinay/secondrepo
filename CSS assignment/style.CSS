@@ -1,0 +1,249 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    font-size: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    width: 33%;
+    /* height: 5%;  */
+    margin: auto;
+    box-shadow: 6px 6px black;
+    margin-bottom: 50px;
+    text-align:center;
+   background-color: aquamarine;
+   text-wrap:wrap;
+   /* text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue; */
+    display: flex;
+   position: sticky;
+   top: 0;
+    
+
+    
+    
+}
+
+
+.content{
+
+border:2px solid black;
+height:600px;
+margin-left: 70px;
+margin-right: 70px;
+box-shadow: 6px 6px 6px 6px black;
+
+
+
+
+
+
+}
+.address{
+    font-size: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    width: 250px;
+    height: 220px;
+    margin: auto;
+    margin-top:30px;
+    box-shadow: 6px 6px black ;
+    margin-bottom: 50px;
+    text-align:center;
+   text-wrap:wrap;
+   background-color: bisque;
+   float:left;
+   position:relative;
+   margin-left:70px;
+   
+
+
+}
+
+.image{
+    font-size: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    width: 250px;
+    height: 220px;
+    /* margin: auto; */
+    margin-top:30px;
+    box-shadow: 6px 6px black ;
+    margin-bottom: 50px;
+    text-align:center;
+   float:right;
+   position:relative;
+   margin-right:70px;
+   background-color: bisque;
+
+
+}
+img{
+
+margin:15px;
+/* margin-bottom:5px; */
+
+}
+
+.additional-info{
+    font-size: 25px;
+    padding: 15px;
+    border: 2px solid black;
+    width: 250px;
+    height: 220px;
+    /* margin: auto; */
+    margin-top:30px;
+    box-shadow: 6px 6px black ;
+    margin-bottom: 50px;
+    text-align:center;
+   top:450px;
+   float:left;
+   position:absolute;
+   margin-left:70px;
+   background-color: bisque;
+   font-variant: small-caps;
+
+}
+
+
+
+
+.rating{
+    font-size: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    width: 250px;
+    height: 220px;
+    margin-top:10px;
+    box-shadow: 6px 6px black ;
+    margin-bottom: 50px;
+    text-align:center;
+   top:310px;
+   float:right;
+   position:relative;
+   margin-right:70px;
+   background-color: bisque;
+   left:320px;
+   
+
+
+}
+
+input{
+    text-align: center;
+}
+#rating2{
+
+    background-color: rgb(69, 42, 165);
+    border-radius:5px ;
+    width:80px;
+    margin-top:20px;
+}
+.rating1{
+
+    text-align: center;
+}
+
+
+ .bar {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translatey(-50%);
+    padding: 10px;
+    border-radius: 8px 8px;
+    box-shadow: -2px 0 5px rgba(14, 0, 0, 0.1);
+    background-color: rgb(222, 214, 214);
+    color: rgb(14, 9, 1);
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: 900;
+ }
+    
+
+ .offer-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-box p {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+#parent{
+    border: 5px solid gray;
+    background-color: lavender;
+    width: 60%;
+    height: 90vh;
+    margin: auto;
+    margin-top: 60%;
+    box-shadow: 5px 5px gray;
+    
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+
+    
+    
+
+
+}
+.box1{
+    width: 40%;
+    height: 40vh;
+    font-weight: 400;
+    border: 1px solid black;
+    float:left;
+    margin-left: 20px;
+    text-align: center;
+    top: 10px;
+    font-variant: small-caps;
+    background-color: whitesmoke;
+    font-style: italic;
+    box-shadow: 6px 6px black;
+    
+    
+}
+.box2{
+    width: 40%;
+    height: 40vh;
+    font-weight: 400;
+    border: 1px solid black;
+    float:right;
+    margin-right: 20px;
+    text-align: center;
+    top: 10px;
+    font-variant: small-caps;
+    background-color: whitesmoke;
+    box-shadow: 6px 6px black;
+}
+.box3{
+    width: 95%;
+    height: 30vh;
+    font-weight: 400;
+    border: 1px solid black;
+    float:left;
+    margin-left: 20px;
+    text-align: center;
+    top: 10px;
+    font-variant: small-caps;
+    clear: both;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    padding: 5px 5px 5px 5px ;
+    box-shadow: 6px 6px black;
+    
+}
+
